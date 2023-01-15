@@ -217,6 +217,7 @@ nav {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: var(--grey);
 }
 /*------- Achivement  -------  */
 .achievement {
@@ -250,5 +251,33 @@ nav {
 }
 
 /*------- Sponsore  -------  */
+.sponsor {
+  margin: 150px 0 50px 0;
+  text-align: center;
+}
+.sponsor h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: var(--black);
+  margin-bottom: 24px;
+}
+.sponsor p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--grey);
+}
 /*------- Sponsore list  -------  */
+.sponsor-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+.sponsor-list-img {
+}
+.sponsor-list-img img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 /*------- footer  -------  */
