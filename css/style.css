@@ -351,6 +351,9 @@ footer p {
   .gallery {
     grid-template-columns: repeat(1, 1fr);
   }
+  .gallery-left {
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* features */
 
   .feature-right-img img {
