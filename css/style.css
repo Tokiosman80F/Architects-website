@@ -1,0 +1,85 @@
+/* font 400 600 500 700 */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+:root {
+  --black: #131313;
+  --grey: #727272;
+  --orange: #ff900e;
+  --white: white;
+}
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin: 0 240px;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 20px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+}
+/*------- Header-------  */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px 8px;
+}
+.header-title {
+  margin-right: auto;
+}
+.header-title h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--black);
+}
+nav {
+}
+.header-nav {
+}
+.header-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.header-nav li a {
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 18px;
+}
+/*------- Explore More-------  */
+.section-1 {
+  margin-top: ;
+  margin-bottom: 50px;
+}
+.explore-more {
+  text-align: center;
+  width: 820px;
+  margin: 0 auto;
+}
+.explore-more h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--black);
+}
+.explore-more p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--grey);
+  margin: 24px 0 32px 0;
+}
+
+/*------- Banner -------  */
+/*------- gallery  -------  */
+/*------- Feature  -------  */
+/*------- some fact  -------  */
+/*------- Achivement  -------  */
+/*------- Sponsore  -------  */
+/*------- Sponsore list  -------  */
+/*------- footer  -------  */
