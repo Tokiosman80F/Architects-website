@@ -281,3 +281,13 @@ nav {
   filter: grayscale(100%);
 }
 /*------- footer  -------  */
+footer {
+
+}
+footer p {
+  text-align: center;
+  color: #424242;
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 40px 0;
+  margin-bottom: 216px;
