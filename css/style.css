@@ -45,7 +45,7 @@ header {
 }
 .header-title h2 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 35px;
   color: var(--black);
 }
 nav {
@@ -223,6 +223,7 @@ nav {
 .achievement {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .achievement-box {
   text-align: center;
@@ -281,9 +282,7 @@ nav {
   filter: grayscale(100%);
 }
 /*------- footer  -------  */
-footer {
 
-}
 footer p {
   text-align: center;
   color: #424242;
@@ -291,3 +290,27 @@ footer p {
   border-radius: 8px;
   padding: 40px 0;
   margin-bottom: 216px;
+}
+/* bonus */
+.bonus {
+  position: relative;
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  color: white;
+  transition: 0.4s;
+}
+.bonus:hover {
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.bonus img {
+  width: 100%;
+}
+.bonus h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
